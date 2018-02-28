@@ -7,6 +7,7 @@ import {LeagueComponent} from './league/league.component';
 import {TeamsComponent} from './league/teams/teams.component';
 import {PlayersComponent} from './league/teams/players/players.component';
 import {TablesComponent} from './league/tables/tables.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {TablesComponent} from './league/tables/tables.component';
         LeagueComponent,
         TeamsComponent,
         PlayersComponent,
-        TablesComponent
+        TablesComponent,
+        MenuComponent
     ],
     imports: [
         BrowserModule
